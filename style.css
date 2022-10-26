@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+footer {
+    font-family: 'Montserrat', monospace;
+    font-size: 20px;
+    padding: 15px;
+    height: 250px;
+    color: lightgray;
+    background-color: #333333;
+   
+    
+}
+
+.vk {
+    width: 50px;
+    height: 50px;
+    background-image: url("pics/vk.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+.inst {
+    width: 50px;
+    height: 50px;
+    background-image: url("pics/1200px-Instagram_icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+.tg {
+    width: 50px;
+    height: 50px;
+    background-image: url("pics/Telegram_logo_icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+body{
+    background-color: #4040bf;
+}
+
+header{
+    background-color: white;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    font-family: 'Montserrat', cursive;
+    font-size: 20px;
+    list-style: none;
+    margin: 25px;
+    transition-duration: 0.5s;
+}
+
+li:hover {
+    color: lime;
+    margin-top: 14px;
+    border-bottom: solid lime 2px;
+    margin-bottom: 14px;
+}
+
+a{
+    color: black;
+    border-bottom: 0px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+#headerNav:hover{
+    color: lime;
+}
+
+.telegram{
+    background-color: #58D4D4;
+    height: 40px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+    border-radius: 10px;
+        width: 320px;
+    
+}
+
+.telegram:hover{
+    color: white;
+    border: 0px;
+
+}
+
+
+.application{
+    background-color: #58D4D4;
+    height: 40px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 25px;
+    border-radius: 10px;
+        width: 200px;
+    margin-left: 450px;
+
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.application.active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+    transition: all 0.8s ease 0.4s;
+}
+
+.application:hover{
+    color: white;
+    border: 0px;
+
+}
+
+.block1{
+    width: 100%;
+    height: 500px;
+    background-image: url('pics/block1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+
+.block2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 35px;
+
+    width: 100%;
+    height: 700px;
+    color: white;
+}
+
+.block3{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.h1{
+    color: white;
+font-family: 'Montserrat',sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 220px;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.h1.active{
+    
+        transform: translate(0px, 0px);
+        opacity: 1;
+
+}
+
+h2{
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cases{
+    width: 100px;
+    height: 200px;
+    margin-right: 350px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 1 */
+    width: max-content;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.lmargin{
+    width: 300px;
+}
+
+video{
+    width: 500%;
+    height: 500%;
+}
+
+.anim-show{
+    transform: translate(120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.anim-show.active,.active.anim-show{
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
